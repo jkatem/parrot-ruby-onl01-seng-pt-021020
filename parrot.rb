@@ -6,7 +6,7 @@
 #   puts "Squawk!"
 # end
 
-def parrot(phrase = 'Pretty bird!')
-  puts 'Squawk!' # => nil
+def parrot(phrase = 'Squawk!')
+  puts phrase
   'Squawk!'
 end
